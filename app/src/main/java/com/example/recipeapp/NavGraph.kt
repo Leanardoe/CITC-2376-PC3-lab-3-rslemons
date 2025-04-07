@@ -1,4 +1,4 @@
-package com.example.lab3
+package com.example.recipeapp
 
 sealed class Screen(val route: String) {
     object RecipeList : Screen("recipeList")
